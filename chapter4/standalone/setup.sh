@@ -8,3 +8,4 @@ rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
 yum install -y jenkins
 chkconfig jenkins on
 service jenkins start
+
